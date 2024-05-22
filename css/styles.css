@@ -32,6 +32,9 @@ body{
     gap: 1rem;
     width: 100%;
 }
+.form-group.row{
+    flex-direction: row;
+}
 .form-group label{
     font-size: .75rem;
 }
@@ -58,5 +61,16 @@ body{
     gap: .5rem;
     height: 40px;
     padding: .5rem 1rem;
+    width: 100%;
+}
+.submit-button{
+    background-color: #0c7d69;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-size: .75rem;
+    height: 40px;
+    letter-spacing: 1px;
+    padding: .5rem;
     width: 100%;
 }
